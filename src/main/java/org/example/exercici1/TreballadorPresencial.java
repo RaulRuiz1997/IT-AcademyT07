@@ -13,4 +13,10 @@ public class TreballadorPresencial extends Treballador {
         return super.calcularSou(horesTreballades) + benzina;
     }
 
+    @SuppressWarnings("unchecked")
+    @Deprecated
+    public String saludar() {
+        return "el treballador presencial saluda";
+    }
+
 }

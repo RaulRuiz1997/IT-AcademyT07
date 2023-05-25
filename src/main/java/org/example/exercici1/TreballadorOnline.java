@@ -12,5 +12,10 @@ public class TreballadorOnline extends Treballador {
     public double calcularSou(int horesTreballades) {
         return super.calcularSou(horesTreballades) + PREU_TARIFA_PLANA;
     }
+    @SuppressWarnings("unchecked")
+    @Deprecated
+    public String saludar() {
+        return "el treballador online saluda";
+    }
 
 }

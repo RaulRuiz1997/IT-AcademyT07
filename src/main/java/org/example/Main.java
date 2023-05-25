@@ -11,8 +11,8 @@ public class Main {
         // Exercici 1 --------------------------------------------------------------------------------------------------
 
         Treballador treballador = new Treballador("Carlos", "García", 20);
-        Treballador treballadorPresencial = new TreballadorPresencial("Vicky", "Gomez", 20);
-        Treballador treballadorOnline = new TreballadorOnline("Robin", "Lopez", 20);
+        TreballadorPresencial treballadorPresencial = new TreballadorPresencial("Vicky", "Gomez", 20);
+        TreballadorOnline treballadorOnline = new TreballadorOnline("Robin", "Lopez", 20);
 
         int horesTreballades = 160;
 
@@ -25,7 +25,8 @@ public class Main {
 
         // Exercici 2 --------------------------------------------------------------------------------------------------
 
-
+        System.out.println(treballadorPresencial.saludar());
+        System.out.println(treballadorOnline.saludar());
 
     }
 
